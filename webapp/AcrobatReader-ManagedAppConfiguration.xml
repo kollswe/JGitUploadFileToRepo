@@ -1,0 +1,197 @@
+<managedAppConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/com.mobileiron.onetouch/appconfig/appconfig.xsd">
+	<version>2</version>
+	<bundleId>com.adobe.Adobe-Reader</bundleId>
+	<dict>
+		<boolean keyName="com.adobe.configuration.application.copypaste">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.application.spotlight">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.application.sharing">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.beta">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.integration.scan">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.cloud.provider.extended.blue-heron">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.cloud.provider.basic.dropbox">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.cloud.service.exportPDF">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.cloud.service.createPDF">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.service.scanToPDF">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.cloud.service.fillAndSign">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.cloud.service.purchaseSubscriptions">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="com.adobe.configuration.cloud.provider.basic.documentPicker">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+	</dict>
+	<presentation defaultLocale="en-US">
+		<fieldGroup>
+			<name>
+				<language value="en-US">Application Features</language>
+			</name>
+			<field keyName="com.adobe.configuration.application.copypaste" type="checkbox">
+				<label>
+					<language value="en-US">Enable copy &amp; paste</language>
+				</label>
+				<description>
+					<language value="en-US">Allows document content to be copied to applications outside of Adobe Acrobat Reader.</language>
+				</description>
+			</field>
+			<field keyName="com.adobe.configuration.application.spotlight" type="checkbox">
+				<label>
+					<language value="en-US">Enable spotlight indexing</language>
+				</label>
+				<description>
+					<language value="en-US">Spotlight indexing results in document content being able to be accessed from outside of Adobe Acrobat Reader (e.g. Home screen Search bar).</language>
+				</description>
+			</field>
+			<field keyName="com.adobe.configuration.application.sharing" type="checkbox">
+				<label>
+					<language value="en-US">Enable Share menu</language>
+				</label>
+				<description>
+					<language value="en-US">Using Adobe Acrobat Reader's Share menu, a user can save a copy of the document, generate links, print, and open the document in other applications.</language>
+				</description>
+			</field>
+			<field keyName="com.adobe.configuration.beta" type="checkbox">
+				<label>
+					<language value="en-US">Enable beta features</language>
+				</label>
+				<description>
+					<language value="en-US">New Adobe Acrobat Reader features that are still in development can be previewed from time-to-time.  These features are not complete, so they may = provide mechanisms that allow content to be copied elsewhere.</language>
+				</description>
+			</field>
+		</fieldGroup>
+		<fieldGroup>
+			<name>
+				<language value="en-US">File Systems</language>
+			</name>
+			<field keyName="com.adobe.configuration.cloud.provider.extended.blue-heron" type="checkbox">
+				<label>
+					<language value="en-US">Enable Document Cloud and Creative Cloud file systems</language>
+				</label>
+				<description>
+					<language value="en-US">Using the Document Cloud and Creative Cloud file systems, a user can upload and download files to/from the cloud</language>
+				</description>
+			</field>
+			<field keyName="com.adobe.configuration.cloud.provider.basic.dropbox" type="checkbox">
+				<label>
+					<language value="en-US">Enable Dropbox file system</language>
+				</label>
+				<description>
+					<language value="en-US">Using the Dropbox file system a user can upload and download files to/from the cloud</language>
+				</description>
+			</field>
+			<field keyName="com.adobe.configuration.cloud.provider.basic.documentPicker" type="checkbox">
+				<label>
+					<language value="en-US">Enable Document Picker &quot;More Locations&quot;</language>
+				</label>
+				<description>
+					<language value="en-US">&quot;More Locations&quot; in the source switcher allows users to open files from other applications/clouds using the iOS Document Picker.</language>
+				</description>
+			</field>
+		</fieldGroup>
+		<fieldGroup>
+			<name>
+				<language value="en-US">Services</language>
+			</name>
+			<field keyName="com.adobe.configuration.cloud.service.exportPDF" type="checkbox">
+				<label>
+					<language value="en-US">Enable Export PDF</language>
+				</label>
+				<description>
+					<language value="en-US">The Export PDF service allows the user to convert PDF's to Microsoft Word or Excel.  This does not provide a subscription.  This feature requires the Document Cloud file system to be enabled.</language>
+				</description>
+			</field>
+			<field keyName="com.adobe.configuration.cloud.service.createPDF" type="checkbox">
+				<label>
+					<language value="en-US">Enable Create PDF</language>
+				</label>
+				<description>
+					<language value="en-US">The Create PDF service allows the user to create PDF files. This does not provide a subscription. This feature requires the Document Cloud file system to be enabled.</language>
+				</description>
+			</field>
+			<field keyName="com.adobe.configuration.service.scanToPDF" type="checkbox">
+				<label>
+					<language value="en-US">Enable Scan to PDF</language>
+				</label>
+				<description>
+					<language value="en-US">The built-in Scan to PDF feature allows users to use the camera on their device to capture an image of a document, and then save it save it as a PDF.  This is the base scanning mechanism -- more features are available using Adobe Scan.</language>
+				</description>
+			</field>
+			<field keyName="com.adobe.configuration.cloud.service.purchaseSubscriptions" type="checkbox">
+				<label>
+					<language value="en-US">Enable Purchase Subscriptions</language>
+				</label>
+				<description>
+					<language value="en-US">Adobe Acrobat Reader has in-app purchase subscriptions that a user can subscribe (Export PDF, PDF Pack, and Acrobat Acrobat Pro).</language>
+				</description>
+			</field>
+		</fieldGroup>
+		<fieldGroup>
+			<name>
+				<language value="en-US">Application Integration</language>
+			</name>
+			<field keyName="com.adobe.configuration.integration.scan" type="checkbox">
+				<label>
+					<language value="en-US">Enable access to Adobe Scan</language>
+				</label>
+				<description>
+					<language value="en-US">Adobe Scan captures anything and transforms it into a PDF.  Adobe Scan is an unmanaged app.</language>
+				</description>
+			</field>
+			<field keyName="com.adobe.configuration.cloud.service.fillAndSign" type="checkbox">
+				<label>
+					<language value="en-US">Enable access to Adobe Fill &amp; Sign</language>
+				</label>
+				<description>
+					<language value="en-US">Adobe Fill &amp; Sign takes PDF's from Adobe Acrobat Reader, detects where the form fields are, and lets you fill them out and sign.  This application is not managed.</language>
+				</description>
+			</field>
+		</fieldGroup>		
+	</presentation>
+</managedAppConfiguration>

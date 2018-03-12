@@ -1,0 +1,128 @@
+<managedAppConfiguration>
+	<version>1</version>
+	<bundleId>com.bottomline.logicalink6.1</bundleId>
+	<dict>
+		<string keyName="serverUrl">
+			<defaultValue>
+				<value>https://server.fqdn.com/logicalink</value> 
+			</defaultValue>
+		</string>
+		<stringArray keyName="barcodePatientSearchValue">
+			<defaultValue>
+				<value>account</value> 
+			</defaultValue>
+		</stringArray>
+		<boolean keyName="barcodeIsDelimited">
+			<defaultValue>
+				<value>false</value> 
+			</defaultValue>
+		</boolean>
+		<integer keyName="positionNumber">
+		</integer>
+		<string keyName="delimiterText">
+		</string>
+		<string keyName="barcodeTrimNumber">
+			<defaultValue>
+				<value>0</value> 
+			</defaultValue>
+		</string>
+		<boolean keyName="bypassFormSelection">
+			<defaultValue>
+				<value>false</value> 
+			</defaultValue>
+		</boolean>
+	</dict>
+<presentation defaultLocale="en-US">
+        <field keyName="serverUrl" type="input">
+            <label>
+                <language value="en-US">Server configuration</language>
+            </label>
+            <options>
+                <option value="account">
+                    <language value="en-US">account</language>
+                </option>
+                <option value="mrn">
+                    <language value="en-US">mrn</language>
+                </option>
+            </options>
+        </field>
+        <field keyName="barcodePatientSearchValue" type="select">
+            <label>
+                <language value="en-US">Patient Barcode Search Field</language>
+            </label>
+            <options>
+                <option selected="true" value="account">
+                    <language value="en-US">account</language>
+                </option>
+                <option value="mrn">
+                    <language value="en-US">mrn</language>
+                </option>
+            </options>
+        </field>
+        <field keyName="barcodeIsDelimited" type="checkbox">
+            <label>
+                <language value="en-US">Barcode value is delimited</language>
+            </label>
+            <options>
+                <option value="account">
+                    <language value="en-US">account</language>
+                </option>
+                <option value="mrn">
+                    <language value="en-US">mrn</language>
+                </option>
+            </options>
+        </field>
+        <field keyName="positionNumber" type="input">
+            <label>
+                <language value="en-US">Position</language>
+            </label>
+            <options>
+                <option value="account">
+                    <language value="en-US">account</language>
+                </option>
+                <option value="mrn">
+                    <language value="en-US">mrn</language>
+                </option>
+            </options>
+        </field>
+        <field keyName="delimiterText" type="input">
+            <label>
+                <language value="en-US">Delimiter</language>
+            </label>
+            <options>
+                <option value="account">
+                    <language value="en-US">account</language>
+                </option>
+                <option value="mrn">
+                    <language value="en-US">mrn</language>
+                </option>
+            </options>
+        </field>
+        <field keyName="barcodeTrimNumber" type="input">
+            <label>
+                <language value="en-US">Ignore</language>
+            </label>
+            <options>
+                <option value="account">
+                    <language value="en-US">account</language>
+                </option>
+                <option value="mrn">
+                    <language value="en-US">mrn</language>
+                </option>
+            </options>
+        </field>
+        <field keyName="bypassFormSelection" type="checkbox">
+            <label>
+                <language value="en-US">Bypass form selection</language>
+            </label>
+            <options>
+                <option value="account">
+                    <language value="en-US">account</language>
+                </option>
+                <option value="mrn">
+                    <language value="en-US">mrn</language>
+                </option>
+            </options>
+        </field>
+	</presentation>
+</managedAppConfiguration>
